@@ -1,3 +1,5 @@
 <?php
-define('SITE_NAME', 'Turntablelist_Den');
-define('SITE_URL', 'http://turntablelist_tp.projet.isi.com');
+define("SITE_NAME" , "PHPat");
+define("SITE_URL", "http://phpat.projet.isi.com");
+define("PAGE_ID", "page_id");
+define("USER_IS_LOGGED", "user_is_logged"); // L'utilisateur est connecté ou non

@@ -1,0 +1,94 @@
+
+                                /* INITIALISATION THEME GLOBAL */
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Gruppo', cursive;
+}
+
+
+                                /* ELEMENTS PRINCIPAUX HTML*/
+h1{
+    margin-top: 50px;
+    color: #324553;
+    font-weight: 900;
+}
+
+h2{
+    margin-top: 30px;
+    color: #324553;
+    font-weight: 500;
+}
+
+#wrapper{
+    width: 60%;
+    margin:0 auto;
+}
+
+#main{
+    border: 1px solid #32baca;
+    height: 300px;
+}
+
+
+                            /* MENU PRINCIPAL */
+ul{
+    margin-top: 20px;
+    padding: 5px ;
+    list-style: none;
+    border-bottom: 1px solid #b0c6c4 ;
+    border-top: 1px solid #b0c6c4 ;
+}
+
+li{
+    display: inline-block;
+    width: 100px;
+    padding: 0 10px;
+}
+
+a{
+    color: #324553;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+a:hover{
+    padding: 5px 10px;
+    background-color: #f85723;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+}
+
+
+                                /* FORMULAIRE : LOGIN/OUT */
+form{
+    margin: 20px;
+}
+
+input{
+    margin-right: 20px;
+    border: 1px solid #32baca;
+}
+
+#dologin, #dologout{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #304653;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
+
+#dologin:hover, #dologout{
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    background-color: #f85723;
+    color: #fff;
+    border-radius: 2px;
+    border: none;
+}
